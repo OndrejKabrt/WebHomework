@@ -5,19 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+      .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 50%;
+        padding: 5px;
+      }
+      </style>
 </head>
 <body>
     <h2>BIRDWATCHING</h2>
 
-    <nav>
+      <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Our team</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Gear</a></li>
+          <li><a href="#">Forum</a></li>
         </ul>
       </nav>
 
-    
+      <main>
+        <article>
+          <h2>Welcome</h2>
+  
+          <p >
+            Welcome to our fake birdwatching site if this were a real site, it would be the ideal pleace to came to learn more about birddwtching, whether you are a beginnerlooking to learn how to get into birding, or an expertwanting to share ideas, tips, and photos with other like-minded people.
+          </p>
+          <p >
+            So don't waste time! Get what you need, then turn off that computer and get out into the hreat outdors!
+          </p>
+            
+        </article>
+
+        <aside>
+          <h2>FAVOURITE PHOTOS</h2>
+          <ul>
+            <div class="row">
+              <div class="column">
+                <img src="bird.jpg" alt="Orel" width="150" height="100">
+              </div>
+              <div class="column">
+                  <img src="Cosi.jpg" alt="Aceros cassidix" width="150" height="100">
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="Ledňáček.jpg" alt="Ledňáček" width="150" height="100">
+              </div>
+              <div class="column">
+                <img src="ptaci.jpg" alt="Souhrn Ptáků" width="150" height="100">
+              </div>
+            </div>
+          </ul>
+        </aside>
+      </main>
+
+      <footer>
+        <p>This fake website example is CCO - any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
+      </footer>
 </body>
 </html>

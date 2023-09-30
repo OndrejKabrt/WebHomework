@@ -51,13 +51,13 @@ html, body {
   /* || header layout */
   
   nav, article, aside, footer {
-    background-color: white;
+    background-color: #78e639;
     padding: 1%;
   }
   
   nav {
     height: 50px;
-    background-color: #64b337;
+    background-color: #78e639;
     display: flex;
     margin-bottom: 10px;
   }
@@ -121,7 +121,7 @@ html, body {
   aside {
     flex: 1;
     margin-left: 10px;
-    background-color: #ff80ff;
+    background-color: #78e639;
   }
   
   aside li {
