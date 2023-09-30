@@ -7,11 +7,13 @@ html, body {
   
   html {
     font-size: 10px;
-    background-color: #15cf43;
+    background-color: #a9a9a9;
+    
   }
   
   body {
     width: 70%;
+    background-color: #15cf43;
     margin: 0 auto;
   }
   
